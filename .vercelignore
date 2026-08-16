@@ -1,12 +1,12 @@
 # Local development files (not needed on Vercel)
-server.js
+/server.js
 
-# Duplicate files at root (actual files are in /lib and /api)
-create-checkout-session.js
-orders.js
-stripe.js
-stripe-webhook.js
-tickets.js
+# Duplicate files at project root only
+/create-checkout-session.js
+/orders.js
+/stripe.js
+/stripe-webhook.js
+/tickets.js
 
 # Development documentation
 STRIPE_SETUP.md
