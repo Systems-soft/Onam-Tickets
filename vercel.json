@@ -2,11 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "devCommand": "node server.js",
   "installCommand": "npm install",
-  "env": [
-    "STRIPE_SECRET_KEY",
-    "STRIPE_WEBHOOK_SECRET",
-    "SITE_URL"
-  ],
   "functions": {
     "api/stripe-webhook.js": {
       "memory": 128,
