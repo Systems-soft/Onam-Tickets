@@ -1,11 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "functions": {
-    "api/stripe-webhook.js": {
-      "memory": 128,
-      "maxDuration": 30
-    }
-  },
   "rewrites": [
     {
       "source": "/",
